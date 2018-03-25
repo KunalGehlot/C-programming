@@ -1,0 +1,9 @@
+
+*.exe
+
+*.project
+*.xml
+*.o
+*.cproject
+*.project
+*.prefs
