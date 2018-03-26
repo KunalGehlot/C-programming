@@ -1,29 +1,20 @@
 /*
- * 		WAP TO FIND THE LENGTH OF AN ENTERED STRING
+ *	WAP TO FIND THE LENGTH OF AN ENTERED STRING
  */
 
 #include <stdio.h>
 
-void main()
+int main() {
 
-{
+	int i, l = 0;
+	char str[20];
 
-	char string[50];
+	printf("Enter your string: \n");
+	gets(str);
 
-	int i, length = 0;
-
-	printf("Enter a string \n");
-
-	gets(string);
-
-	/*  keep going through each character of the string till its end */
-
-	for (i = 0; string[i] != '\0'; i++) // Keeps counting until a null is detected
-			{
-
-		length++;
+	for (i = 0; str[i] != '\0'; i++) {
+		l++;
 	}
 
-	printf("%d", length);
-
+	printf("%d is the length of the string.\n", l);
 }
