@@ -11,7 +11,7 @@ struct record {
 	float marks;
 };
 
-int main () {
+int main() {
 
 	struct record s1;
 
